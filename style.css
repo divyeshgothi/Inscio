@@ -72,7 +72,7 @@ header{
 	padding-top: 0px;
 }
 .banner{
-	background-image: url(./img/bnr.JPG);
+	background-image: url('./img/bnr.jpg');
 	padding-top: 210px;
 	background-repeat: no-repeat;
 	background-size: cover;	
