@@ -1,0 +1,348 @@
+body, ul, li, div, p, pre, span, a, img, table, td, th, tr{
+	margin: 0;
+	padding: 0;
+}
+section, footer{
+	display: inline-block;
+	width: 100%;
+}
+a{
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+}
+/*================================Header Part==================================*/
+header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding-top: 50px
+}
+.container{
+	display: table;
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+.logo{
+	display: inline-block;
+}
+.menu{
+	display: inline-block;
+	float: right;
+	padding-top: 20px;	
+}
+.menu li{
+	float: left;
+	list-style: none;
+}
+.menu li a{
+	color: #FFF;
+	padding: 50px 20px 0 20px;
+	text-transform: uppercase;
+}
+.contact{
+	position: absolute;
+	top: 20px;
+    right: 230px;
+}
+.contact span{
+	color: #C9C7C7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.contact span a{
+    color: #C9C7C7;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 2px solid #C9C7C7;
+    padding: 6px 10px 6px 10px;
+    margin-left: 65px;
+}
+.contact img {
+    vertical-align: bottom;
+}
+/*==============================Banner Section================================*/
+.banner-title h1{
+	font-size: 80px;
+	font-family: 'Poppins', sans-serif;
+	color: #FFF;
+	margin: 0;
+}
+.banner .container{
+	padding-top: 0px;
+}
+.banner{
+	background-image: url(./img/bnr.JPG);
+	padding-top: 210px;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+.banner-title{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+.banner p {
+    color: #FFF;
+    width: 59%;
+    font-size: 22px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-bottom: 41px;
+}
+a.primary-button{
+	display: inline-block;
+	color: #FFF;
+	background-color: #0092c8;
+	padding: 10px 25px 10px 25px;
+	border-radius: 3px;
+	margin-bottom: 50px;
+}
+.bnr_icon{
+	float: right;
+	position: absolute;
+    top: 130px;
+    right: 100px;
+}
+/*===================Dealer Cloud Section Part 2============================*/
+.dealer_cloud {
+    padding-bottom: 60px;
+}
+
+.dealer_cloud p{
+	color: #666666;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 35px;
+}
+
+.dealer_cloud h2{
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	color: #0092c8;
+	text-align: center;
+	margin: 0;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+.dealer_cloud img{
+	padding-left: 45px;
+}
+/*=================Overview Section Part 3===================================*/
+.overview{
+	background-color: #f8f8f8;
+}
+.decription {
+    margin: 0 -20px;
+}
+.overview h2{
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	color: #0092c8;
+	text-align: center;
+	margin: 0;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+.overview span{
+	color: #0092c8;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.overview p{
+	color: #666666;
+	font-size: 18px;
+	font-family: system-ui;
+	padding-top: 20px;
+}
+.overview .container .decription div{
+	display: inline-table;
+    width: 21%;
+    padding: 0 20px;
+    float: left;
+}
+.overview ul li{
+	list-style: none;
+	float: left;
+	padding-top: 60px;
+    padding-right: 42px;
+    padding-bottom: 90px;
+}
+.overview .container ul li:last-child{
+    padding-right: 0;
+}
+/*===================Product Info Section Part 4=========================*/
+section.product_info {
+    padding-bottom: 60px;
+}
+.product_info h2{
+	font-size: 55px;
+	font-family: 'Poppins', sans-serif;
+	color: #0092c8;
+	text-align: center;
+	margin: 0;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.business_circul{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+.parts{
+	width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    float: left;
+}
+.for_block{
+	width: 50%;
+	display: inline-block;
+	float: left;
+	padding-bottom: 60px;
+}
+.for_block p {
+    width: 230px;
+    display: block;
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.product_info a.batton{
+    color: #FFF;
+    font-size: 16px;
+    background-color: #0092C8;
+    padding: 10px 14px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.product_info a.batton:hover{
+	background-color: #223f94;
+}
+
+.for_block:last-child, .for_block:nth-child(3) {
+    padding-bottom: 40px;
+}
+/*===========================Benefit Annually Section Part 5============================*/
+.main_coloum{
+	text-align: center;
+}
+.main_coloum p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+}
+.Benefit_Annually{
+	background-color: #0092c8;
+	padding-top: 50px;
+    padding-bottom: 65px;
+}
+.first {
+    display: inline-block;
+    padding-right: 165px;
+}
+.benifit {
+    display: inline-block;
+    padding-right: 100px;
+}
+.month {
+    display: inline-block;
+}
+.benifit h2{
+	font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    margin: 0;
+}
+.month h2{
+	font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    margin: 0;
+}
+.Benefit_Annually .first span{
+	color: #FFF;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+}
+/*===================================Books Information Section part 6==========================================*/
+section.book_info{
+	padding-bottom: 80px;
+}
+.book_info h2{
+	font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #0092c8;
+    text-align: center;
+    font-weight: 400;
+    line-height: 62px;
+}
+.book_image{
+	width: 50%;
+	display: inline-block;
+}
+.info{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+  
+}
+.info p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+.info a{
+	text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    background-color: #0092C8;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px 53px;
+    text-align: center;
+    margin-top: 30px;
+}
+.info a:hover{
+	background-color: #223f94;
+}
+/*===========================================Footer===============================================*/
+.footer{
+	background-color: #223f94;
+	padding-top: 160px;
+	text-align: center;
+}
+.footer pre{
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	display: block;
+	padding-bottom: 25px;
+}
+.footer-menu.menu ul{
+	display: inline-block;
+	padding-bottom: 20px;
+}
+.footer-menu{
+	display: inline-block;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 135px;
+    width: 100%;
+}
+.footer-menu.menu ul {
+    display: inline-block;
+}
+.footer-menu span a {
+    color: #FFF;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-menu p{
+    color: #b5b4b4;
+    font-family: 'Poppins', sans-serif;
+    width: 89%;
+    display: inline-block;
+}
